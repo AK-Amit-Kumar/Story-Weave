@@ -9,7 +9,7 @@ create_tables()  # for creating table before spinning up our API
 
 
 app = FastAPI(
-    title="Choose ur own adventure Game API",
+    title="StoryWeave API",
     description="api to generate cool stories",
     version="0.1.0",
     docs_url="/docs",

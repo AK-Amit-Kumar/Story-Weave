@@ -2,7 +2,7 @@ from typing import List, Dict, Any, Optional
 from pydantic import BaseModel, Field
 
 #Defining Pydantic models for loading in LLM response
-# We are creating this in detail class in which data will come from LLM
+# We are creating this in  detail class in which data will come from LLM
 
 
 # this class will be used in another class - parent class for another class
@@ -25,3 +25,5 @@ class StoryLLMResponse(BaseModel):
     title: str = Field(description="The title of the story")
     rootNode: StoryNodeLLM = Field(description="The root node of the story")
 
+# In above classes, we are mapping out how our story stucture shoudl look like
+# so, that we can pass it to the LLM
