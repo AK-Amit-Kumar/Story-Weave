@@ -12,7 +12,7 @@ from db.database import Base  # data model 'story' will inherit from class BASE
 # story = relationship(...) lets you call page.story and find out which Book that page belongs to.
 
 # This creates a One-to-Many relationship: One Story can have Many StoryNodes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         'This creates a One-to-Many relationship: One Story can have Many StoryNodes.)
-
+# defining SQL models through sqlalchemy
 class Story(Base):   # contains the metadata of the story as a whole
     __tablename__ = 'stories'
 

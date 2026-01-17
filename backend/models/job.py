@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.sql import func  # for using the now() function
 
-from db.database import Base  # data model 'story' will inherit from class BASE
+from db.database import Base  # data model 'story' will inherit from class BASE - for inheriting the blueprint
 
 # JOB is going to represent the intent to make a story
 # JOB TELLS US STATUS OF STORY CREATION

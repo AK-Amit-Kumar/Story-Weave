@@ -88,12 +88,6 @@ class StoryGenerator:    ## we are writing class here to organize the function m
         # below we are going take infor from StoryNodeLLM type node to StoryNode type node
         #     ROOT NODE ----
         node = StoryNode(
-            # story_id=story_id,
-            # content=node_data.content if hasattr(node_data, "content") else node_data["content"],
-            # is_root=is_root,
-            # is_ending=node_data.is_Ending if hasattr(node_data, "is_Ending") else node_data["is_Ending"],
-            # is_winning_ending=node_data.isWinningEnding if hasattr(node_data, "isWinningEnding") else node_data["isWinningEnding"],
-            # options=[]
             story_id=story_id,
             content=node_data.content,
             is_root=is_root,
