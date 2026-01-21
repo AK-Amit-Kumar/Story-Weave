@@ -10,7 +10,7 @@ from models.story import Story, StoryNode
 from models.job import StoryJob
 
 from schemas.story import (
-    CompleteStoryResponse, CompleteStoryNodeResponse, CreateStoryRequest
+    CompleteStoryResponse, CompleteStoryNodeResponse, CreateStoryRequest, StoryOptionsSchema
 )
 from schemas.job import StoryJobResponse
 from core.story_generator import StoryGenerator
@@ -133,7 +133,7 @@ def build_complete_story_tree(db: Session, story: Story) -> CompleteStoryRespons
             id=node.id,
             content=node.content,
             is_ending=node.is_ending,
-            is_winning_ending=node.is_winning,   # replacing is_winning_ending with is_winning
+            is_winning_ending=node.is_winning_ending,   # replacing is_winning_ending with is_winning
             options=node.options
         )
 
