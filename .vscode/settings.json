@@ -1,4 +1,5 @@
 {
     "vscode-pets.theme": "forest",
-    "vscode-pets.throwBallWithMouse": true
+    "vscode-pets.throwBallWithMouse": true,
+    "postman.settings.dotenv-detection-notification-visibility": false
 }

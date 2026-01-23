@@ -64,7 +64,7 @@ function StoryGame({ story, onNewStory }) {
       </header>
 
       <div className="story-content">
-        {currenNode && (
+        {currentNode && (
           <div className="story-node">
             <p>{currentNode.content}</p>
 

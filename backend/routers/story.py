@@ -133,7 +133,7 @@ def build_complete_story_tree(db: Session, story: Story) -> CompleteStoryRespons
             id=node.id,
             content=node.content,
             is_ending=node.is_ending,
-            is_winning_ending=node.is_winning_ending,   # replacing is_winning_ending with is_winning
+            is_winning_ending=node.is_winning,
             options=node.options
         )
 

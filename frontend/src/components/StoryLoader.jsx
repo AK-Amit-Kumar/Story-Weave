@@ -8,8 +8,7 @@ import axios from "axios";
 import LoadingStatus from "./LoadingStatus.jsx";
 // importing StoryGame
 import StoryGame from "./StoryGame.jsx";
-
-const API_BASE_URL = "/api";
+import { API_BASE_URL } from "../util.js";
 
 // here we are trying to fetch story id from the browser url to fetch the story from the backend
 //  /frontend_link/story/story_id

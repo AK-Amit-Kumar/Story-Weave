@@ -9,7 +9,7 @@ from schemas.job import StoryJobResponse
 
 # setting up the router
 router = APIRouter(
-    prefix="/job",
+    prefix="/jobs",
     tags=["job"],
 )
 
