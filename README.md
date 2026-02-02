@@ -1,4 +1,6 @@
-# Story Weaver
+# Story Weave
+<img width="1376" height="768" alt="Gemini_Generated_Image_qoscltqoscltqosc" src="https://github.com/user-attachments/assets/a53e9dff-3267-4b4e-9fdf-7ccf80a86a30" />
+
 
 **Story Weaver** is a dynamic, AI-powered storytelling platform that allows users to co-create immersive narratives. By simply providing a theme, users are dropped into a branching storyline where every decision shapes a unique path toward multiple potential conclusions.
 
