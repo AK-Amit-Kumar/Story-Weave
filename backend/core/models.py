@@ -13,6 +13,8 @@ class StoryOptionLLM(BaseModel):
     )
 
 
+# This class represents a node in a story with content, ending status, winning ending status, and
+# options.
 class StoryNodeLLM(BaseModel):
     content: str = Field(description="The main content of the story node")
     isEnding: bool = Field(description="Whether this node is an ending node")
